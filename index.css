@@ -1,0 +1,106 @@
+.dist {
+    width: 400px;
+    height: 500px;
+    position: relative;
+    border: 2px solid black;
+    margin: 30px auto;
+}
+
+.dist.compact {
+    width: 600px;
+    margin-bottom: 150px;
+}
+
+.dist>.header {
+    position: absolute;
+    bottom: 100%;
+    width: 100%;
+    margin-bottom: 5px;
+    font-size: 120%;
+    font-weight: bold;
+    text-align: center;
+}
+
+.dist>.bars {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+/* bar */
+.dist>.bars>div {
+    display: inline-block;
+    vertical-align: bottom;
+    position: absolute;
+    bottom: 0;
+    background-color: blue;
+    transition: height 0.75s;
+    box-sizing: border-box;
+    border: 2px solid white;
+}
+
+/* x-axis label */
+.dist>.bars>div>.x-label{
+    position: absolute;
+    top: 100%;
+    margin-top: 10px;
+}
+
+.compact.dist>.bars>div>.x-label {
+    transform: rotateZ(90deg);
+    transform-origin: left center;
+    margin-left: 10px;
+    white-space: nowrap;
+    overflow: visible;
+}
+
+/* y-axis label */
+.dist>.bars>div>.y-label {
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    bottom: 0%;
+    height: 100%;
+    min-height: 40px;
+    box-sizing: border-box;
+    padding-top: 10px;
+    color: #eee;
+    text-shadow: 1px  1px 1px black,
+                -1px -1px 1px black,
+                 1px -1px 1px black,
+                -1px  1px 1px black;
+}
+
+.dist.compact>.bars>div>.y-label>div {
+    transform: rotateZ(90deg);
+}
+
+.dist>.bars>div:nth-child(1) {transition-delay: 0.2s;}
+.dist>.bars>div:nth-child(2) {transition-delay: 0.4s;}
+.dist>.bars>div:nth-child(3) {transition-delay: 0.6s;}
+.dist>.bars>div:nth-child(4) {transition-delay: 0.8s;}
+.dist>.bars>div:nth-child(5) {transition-delay: 1.0s;}
+.dist>.bars>div:nth-child(6) {transition-delay: 1.2s;}
+.dist>.bars>div:nth-child(7) {transition-delay: 1.4s;}
+.dist>.bars>div:nth-child(8) {transition-delay: 1.6s;}
+.dist>.bars>div:nth-child(9) {transition-delay: 1.8s;}
+.dist>.bars>div:nth-child(10) {transition-delay: 2.0s;}
+.dist>.bars>div:nth-child(11) {transition-delay: 2.2s;}
+.dist>.bars>div:nth-child(12) {transition-delay: 2.4s;}
+.dist>.bars>div:nth-child(13) {transition-delay: 2.6s;}
+.dist>.bars>div:nth-child(14) {transition-delay: 2.8s;}
+.dist>.bars>div:nth-child(15) {transition-delay: 3.0s;}
+.dist>.bars>div:nth-child(16) {transition-delay: 3.2s;}
+.dist>.bars>div:nth-child(17) {transition-delay: 3.4s;}
+.dist>.bars>div:nth-child(18) {transition-delay: 3.6s;}
+.dist>.bars>div:nth-child(19) {transition-delay: 3.8s;}
+.dist>.bars>div:nth-child(20) {transition-delay: 4.0s;}
+
+
+table {
+    margin: 0 auto;
+}
+
+table td:first-child {
+    text-align: right;
+}

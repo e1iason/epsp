@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>EPSP Simulator</title>
+        <script   src="https://code.jquery.com/jquery-2.2.4.min.js"   integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="   crossorigin="anonymous"></script>
+        <script type="text/javascript" src="./exercise1.js"></script>
+        <script type="text/javascript" src="./exercise2.js"></script>
+        <link type="text/css" rel="stylesheet" href="./index.css"/>
+    </head>
+    <body>
+        <h1>Exercise 1</h1>
+        <table id="exercise-1-variables">
+            <tr><td>Number of M&amp;M's:</td><td><input type="number" name="mm-num" value="4000"/></td></tr>
+            <tr><td>Expected M&amp;M weight:</td><td><input type="number" name="mm-weight" value="0.8" />g</td></tr>
+            <tr><td>Scale Precision (&amp; M&amp;M variability):</td><td><input type="number" name="mm-precision" value="0.1" />g</td></tr>
+            <tr><td>Number of bins:</td><td><input type="number" name="mm-bins" value="5" /></td></tr>
+        </table>
+        <br/>
+        <div class="dist" id="mm-dist">
+            <div class="header"></div>
+            <div class="bars"></div>
+        </div>
+        <br/><hr/><br/>
+        <h1>Exercise 2</h1>
+        <table id="exercise-2-variables">
+            <tr><td>Success probability per site:</td><td><input type="number" name="mv-prob" value="0.33"/></td></tr>
+            <tr><td>Number of sites:</td><td><input type="number" name="mv-sites" value="6" /></td></tr>
+            <tr><td>Number of trials:</td><td><input type="number" name="mv-trials" value="40000" /></td></tr>
+            <tr><td>Number of bins:</td><td><input type="number" name="mv-bins" value="25" /></td></tr>
+        </table>
+        <br/>
+        <div class="dist compact" id="mv-dist">
+                <div class="header"></div>
+                <div class="bars"></div>
+        </div>
+    </body>
+</html>
