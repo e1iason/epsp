@@ -35,8 +35,10 @@ function generateHistogram(successProb, numSites, numTrials, eMM, scalePrecision
 }
 
 $(function() {
-    mvDist();
-    $("input").change(mvDist);
+    setTimeout(function() {
+        mvDist();
+        $("input").change(mvDist);
+    }, 100);
 })
 
 function mvDist() {

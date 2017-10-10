@@ -83,6 +83,8 @@ function createMMDistribution(numMMs, eMM, scalePrecision, numBins, label) {
 }
 
 $(function() {
-    MMDist();
-    $("#exercise-1-variables input").change(MMDist);
+    setTimeout(function() {
+        MMDist();
+        $("#exercise-1-variables input").change(MMDist);
+    }, 100);
 });
