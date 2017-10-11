@@ -95,6 +95,16 @@
 .dist>.bars>div:nth-child(18) {transition-delay: 3.6s;}
 .dist>.bars>div:nth-child(19) {transition-delay: 3.8s;}
 .dist>.bars>div:nth-child(20) {transition-delay: 4.0s;}
+.dist>.bars>div:nth-child(21) {transition-delay: 4.2s;}
+.dist>.bars>div:nth-child(22) {transition-delay: 4.4s;}
+.dist>.bars>div:nth-child(23) {transition-delay: 4.6s;}
+.dist>.bars>div:nth-child(24) {transition-delay: 4.8s;}
+.dist>.bars>div:nth-child(25) {transition-delay: 5.0s;}
+.dist>.bars>div:nth-child(26) {transition-delay: 5.2s;}
+.dist>.bars>div:nth-child(27) {transition-delay: 5.4s;}
+.dist>.bars>div:nth-child(28) {transition-delay: 5.6s;}
+.dist>.bars>div:nth-child(29) {transition-delay: 5.8s;}
+.dist>.bars>div:nth-child(30) {transition-delay: 6.0s;}
 
 
 table {
